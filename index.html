@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Task Tracker</title>
+  </head>
+  <body>
+    <div class="todo-container">
+      <section class="column" id="todo">
+        <div class="column-header">
+          <h1>To Do</h1>
+        </div>
+        <div class="column-body" id="todo-list">
+          <!-- Сюда будут добавляться задачи для ToDo -->
+        </div>
+      </section>
+
+      <section class="column" id="in-progress">
+        <div class="column-header">
+          <h1>In Progress</h1>
+        </div>
+        <div class="column-body" id="in-progress-list">
+          <!-- Сюда будут добавляться задачи для In Progress -->
+        </div>
+      </section>
+
+      <section class="column" id="done">
+        <div class="column-header">
+          <h1>Done</h1>
+        </div>
+        <div class="column-body" id="done-list">
+          <!-- Сюда будут добавляться задачи для Done -->
+        </div>
+      </section>
+
+      <!-- Инпут для добавления задач -->
+      <div class="todo-input-container">
+        <input
+          class="todo-input"
+          type="text"
+          placeholder="Type task here..."
+          id="task-input"
+        />
+        <button id="add-task-btn">Add Task</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
