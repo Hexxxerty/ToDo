@@ -1,3 +1,5 @@
+<<<<<<< HEAD
 Not Hello Git!
 
-i'm gayИзменение из master
+i'm gay
+>>>>>> feature/add-new-function
